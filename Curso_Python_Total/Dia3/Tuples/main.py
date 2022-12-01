@@ -1,0 +1,12 @@
+mi_tuple = (1,2,('Hola','Tini'),4)
+print(type(mi_tuple))
+print(mi_tuple[2][1])
+mi_tuple=list(mi_tuple)
+print(type(mi_tuple))
+mi_tuple=tuple(mi_tuple)
+print(type(mi_tuple))
+numA,numB,tupleA,numC=mi_tuple
+print(numB)
+print(len(mi_tuple))
+print(mi_tuple.count(1))
+print(mi_tuple.index(4))
