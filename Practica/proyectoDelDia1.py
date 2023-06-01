@@ -1,0 +1,1 @@
+print('El nombre de tu crveza debe llamarse "' + input('Cual es tu color preferido: ') + input('Cual es tu ideologia preferida: ') + '"')
